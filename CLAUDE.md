@@ -50,5 +50,4 @@ Supports Python 3.9+. Keep `from __future__ import annotations` and don't use 3.
 - **USB-C hubs/dongles:** behind a VIA VL817 hub (`2109:0817`) on a USB-C dongle, only the USB 3 side enumerated, so the USB 2 companion hub, and therefore the CH341, never appeared. The Mac showed no USB errors in the logs. Fix: plug the sensor directly into the Mac. Look in `ioreg -p IOUSB -l` for vendor ID `6790` (0x1a86) before suspecting drivers.
 - Raw `os.read` on a non-blocking fd raises `BlockingIOError` (EAGAIN). pyserial handles this, but ad-hoc scripts must too.
 - Anaconda's Python ships a module named `serial` that is **not** pyserial (it has no `__version__` and no `Serial`). Always use the project `.venv`.
-- `/usr/bin/python3` on macOS (Command Line Tools 3.9) has Tk 8.5, which is deprecated and buggy. `start_mac.command` requires Tk ≥ 8.6.
-- `start_windows.bat` must keep CRLF line endings (enforced by `.gitattributes`). Avoid `%errorlevel%` inside `( … )` blocks; it is expanded when the block is parsed, before it runs.
+- `/usr/bin/python3` on macOS (Command Line Tools 3.9) has Tk 8.5, which is deprecated and buggy. The app needs Tk ≥ 8.6.

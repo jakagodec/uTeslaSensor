@@ -9,50 +9,23 @@ A small desktop app for the **MicroteslaSensor** (by Natan Osterman), a 3-axis m
 
 ## Installation
 
-### Requirements
+You need **Python 3.9 or newer** with tkinter (Tk 8.6), and a USB **data** cable (some cables only carry power).
 
-- Python **3.9 or newer** with Tk 8.6 (tkinter)
-- The sensor connected with a USB **data** cable (some cables only carry power)
+- **macOS:** get Python from [python.org](https://www.python.org/downloads/macos/) or install it with `brew install python python-tk`. Don't use `/usr/bin/python3`; its Tk 8.5 is outdated. macOS has a built-in CH341 driver, so there's nothing else to install.
+- **Windows:** get Python from [python.org](https://www.python.org/downloads/windows/) and tick **"Add python.exe to PATH"** during setup. The CH341 driver usually installs automatically. If the sensor doesn't appear under **Device Manager → Ports (COM & LPT)**, install [CH341SER](https://www.wch-ic.com/downloads/CH341SER_EXE.html) from WCH.
 
-### macOS
-
-1. **Install Python** (skip this if you already have Python 3.9+ with Tk 8.6):
-   - Recommended: the installer from [python.org](https://www.python.org/downloads/macos/), or
-   - Homebrew: `brew install python python-tk`
-
-   > The `/usr/bin/python3` that ships with Xcode Command Line Tools uses an outdated Tk 8.5. The launcher skips it.
-
-2. **Driver:** nothing to install. macOS 11+ has a built-in CH34x driver. The sensor shows up as `/dev/cu.usbserial-XXXX`.
-
-3. **Start the app:** double-click `start_mac.command` in Finder, or run:
-
-   ```bash
-   ./start_mac.command
-   ```
-
-   The first run creates a local virtual environment in `.venv/` and installs `pyserial`. Later runs start immediately.
-
-   If macOS says the file can't be opened because it's from an unidentified developer, right-click it and choose **Open** once, or run `chmod +x start_mac.command` after cloning.
-
-### Windows
-
-1. **Install Python** from [python.org](https://www.python.org/downloads/windows/). During setup, tick **"Add python.exe to PATH"**. tkinter is included by default.
-
-2. **Driver:** Windows usually installs the CH341 driver automatically through Windows Update. Plug in the sensor and open **Device Manager → Ports (COM & LPT)**. You should see *USB-SERIAL CH340 (COMx)*. If the device has a yellow warning icon instead, install the official **CH341SER** driver from WCH: <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
-
-3. **Start the app:** double-click `start_windows.bat`. The first run creates `.venv\` and installs `pyserial`.
-
-### Manual setup (any OS)
+Then, from the repository folder:
 
 ```bash
-python3 -m venv .venv
-# macOS/Linux:
-.venv/bin/pip install -r requirements.txt
-.venv/bin/python -m utesla_reader
-# Windows:
-.venv\Scripts\pip install -r requirements.txt
-.venv\Scripts\python -m utesla_reader
+python -m venv .venv
 ```
+
+| | macOS | Windows |
+|---|---|---|
+| Install pyserial (once) | `.venv/bin/pip install -r requirements.txt` | `.venv\Scripts\pip install -r requirements.txt` |
+| Run | `.venv/bin/python -m utesla_reader` | `.venv\Scripts\python -m utesla_reader` |
+
+On macOS, use `python3` instead of `python` if `python` isn't found.
 
 ## Usage
 
