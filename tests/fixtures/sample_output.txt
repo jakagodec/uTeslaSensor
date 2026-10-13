@@ -1,0 +1,31 @@
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (MicroteslaSensor by Natan Osterman
+Averaging NumReads=
+50
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:273
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:275
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:273
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:273
+Bx: 199.99 By: -200.00 Bz: -200.00 Magnitude: 346.4 TrueField: (220.32 -245.11 -216.83) Elapsed_ms:274
+Bx: 199.99 By: -200.00 Bz: -200.
